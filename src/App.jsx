@@ -1,8 +1,9 @@
 import { useState } from 'react'
-import { projectsInfo } from "./utils/content"
-import './App.css'
+import { Routes, Route } from "react-router";
 import Navbar from './components/Navbar/Navbar'
-import About from './components/About/Abount'
+import About from './components/About/About'
+import Home from './components/Home/Home'
+import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,17 +11,12 @@ function App() {
   return (
     <>
       <Navbar />
-      <main className='main-container'>
-        <About />
-        <div>
-          {
-            projectsInfo.map((each) => (
-              <h2 key={each.id}>{each.name}</h2>
-            ))
-          }
-        </div>
-      </main>
-      <footer>Footer</footer>
+      <div className='content-container'>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
     </>
   )
 }

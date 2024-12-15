@@ -1,4 +1,6 @@
-.main-container {
-    margin-top: 3rem;
-    background-color: var(--white);
+@media (min-width: 768px) {
+    .content-container {
+        margin-top: 3rem;
+        background-color: var(--white);
+    }
 }

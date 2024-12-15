@@ -1,11 +1,4 @@
-.nav-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.819);
-    z-index: 1000;
-}
+.nav-bar {}
 
 .nav-bar ul {
     list-style: none;
@@ -13,6 +6,15 @@
 }
 
 @media (min-width: 768px) {
+    .nav-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.819);
+        z-index: 1000;
+    }
+
     .nav-bar ul {
         display: flex;
         gap: 1rem;
@@ -21,14 +23,14 @@
         /* background-color: rgba(0, 225, 255, 0.466); */
     }
 
-    .nav-bar li { 
-        margin: 0.6rem 0;  
+    .nav-bar li {
+        margin: 0.6rem 0;
     }
 
     .nav-bar a {
         color: var(--dark-900);
         font-size: 0.8rem;
-        display: block; 
+        display: block;
         padding: 0.3rem 1rem;
         text-decoration: none;
         /* background-color: rgba(137, 43, 226, 0.265); */
