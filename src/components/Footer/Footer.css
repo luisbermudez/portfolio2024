@@ -1,0 +1,13 @@
+footer {
+    background-color: black;
+    color: var(--white);
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;    
+}
+
+.footer-nav a {
+    color: var(--white);
+}

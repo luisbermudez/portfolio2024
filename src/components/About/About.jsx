@@ -7,12 +7,16 @@ export default function About() {
             <main>
                 <section>
                     <h1>Luis Bermudez</h1>
-                    <p>Hi there! I am a MERN, and ASP.NET web developer. Currently part of the web dev team at <a href='https://www.weber.edu/'>Weber State University.</a></p>
+                    <p>Hi there! I am a MERN, and ASP.NET web developer. Currently part of the web dev team at <a href='https://www.weber.edu/' target="_blank">Weber State University.</a></p>
                 </section>
 
                 <br></br>
 
-                <div>
+                <h2>Write something about yourself</h2>
+
+                <br></br>
+
+                {/* <div>
                     <h2>Work Experience</h2>
                     {
                         workExpInfo.map(workItem => (
@@ -30,16 +34,9 @@ export default function About() {
                             <h3 key={educationItem.id}>{educationItem.title}</h3>
                         ))
                     }
-                </div>
-
-                <br></br>
-
-                <div>
-                    Contact info
-                </div>
+                </div> */}
             </main>
-
-
+            
             <Footer />
         </>
     )

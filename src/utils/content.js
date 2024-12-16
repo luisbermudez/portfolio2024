@@ -53,7 +53,7 @@ export const projectsInfo = [
   {
     id: 0,
     name: "Admissions",
-    nameLink: "--",
+    nameLink: "admissions",
     projectImage: "--",
     projectType: "WEB APPLICATION",
     projectTitle: "Asp.net & C# Web Application",
@@ -107,7 +107,7 @@ export const projectsInfo = [
   {
     id: 3,
     name: "Easy Dictionary App",
-    nameLink: "--",
+    nameLink: "easyDictionary",
     projectImage: "--",
     projectType: "MOBILE APP DEVELOPMENT",
     projectTitle: "(Type of framewrok) Mobile Application",
@@ -122,7 +122,7 @@ export const projectsInfo = [
   {
     id: 4,
     name: "Ideas: Animation clip, video game or some sort of AI implementation",
-    nameLink: "--",
+    nameLink: "inProgress",
     projectImage: "--",
     projectType: "--",
     projectTitle: "--",
